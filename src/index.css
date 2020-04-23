@@ -1,0 +1,77 @@
+.box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1180px;
+    padding-left: 120px;
+}
+.material-icons{
+    font-size: 2.4em;
+    cursor: pointer;
+}
+.card{
+    width: 250px;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-image{
+    padding: 5px;
+    width: 100%;
+    height: auto;
+}
+
+@media(min-width: 320px) and (max-width: 500px){
+    .box{
+        width: 500px;
+        padding-left: 0px;
+        margin-left: -25px;
+        justify-content: space-evenly;
+    }
+    .material-icons{
+        font-size: 2.4em;
+        cursor: pointer;
+    }
+    .card{
+        width: 225px;
+        height: auto;
+    }
+    .card-image{
+        padding: 5px;
+        width: 100%;
+        height: auto;
+    }
+}
+@media(min-width: 501px) and (max-width: 980px){
+    .card{
+        width: 390px;
+    }
+}
+.item{
+    margin:5px;
+}
+.card .card-image .card-title{
+    color: black;
+    font-weight: 400
+}
+.cart{
+    margin-top:40px;
+}
+.collection .collection-item{
+    display: flex;
+}
+.collection-item.avatar .title {
+    font-size: 15px;
+    font-weight: 500;
+    color: #ee6e73;
+    display: block;
+    margin-bottom: 20px;
+    
+}
+.collection .collection-item img{
+    width: 150px;
+    margin-right: 25px;
+}
+.item-desc{
+    align-self:center;
+}
